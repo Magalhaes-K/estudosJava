@@ -10,5 +10,5 @@ Este repositório serve como um histórico da minha evolução na programação.
 
 ## Tecnologias
 
-- Java (JDK 17+)
+- Java
 - Git & GitHub

@@ -10,7 +10,7 @@ public class maiorMenor {
 
         System.out.println("Digite um numero(numero 0 para encerrar): ");
 
-        if ((number=input.nextInt()) != 0) {
+        while ((number=input.nextInt()) != 0) {
             if (!hasNumber) {
                 maxValue = number;
                 minValue = number;
@@ -28,7 +28,7 @@ public class maiorMenor {
         if (hasNumber) {
             System.out.println("\nResultado: ");
             System.out.println("Maior valor: "+ maxValue);
-            System.out.println("Numero menor: "+minValue);
+            System.out.println("Menor valor: "+minValue);
         } else {
             System.out.println("Nenhum numero digitado");
         }
